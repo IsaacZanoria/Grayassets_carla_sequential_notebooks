@@ -5,6 +5,8 @@
 - In general (this holds for the straight line dataset so far) we train the Stage 1 (packet grouping model) on the seed2 dataset, using notebook 4
   - After training on notebook 4, we use the completed model weights to predict the packet boundaries on seed1 (using notebook 4a), then use those predicted packet groups on the trajectory prediction task
 
+- Link to the final experiments status spreadsheet: https://docs.google.com/spreadsheets/d/1ESxRl-gNSaLCF42-juSZxXzJKyLDJOEBALuA33akX50/edit?gid=0#gid=0
+
 The dataset directory (./grayassets_datasets/) structure is as follows:
 ```
 ↪ grayassets_datasets/
